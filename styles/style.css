@@ -6,6 +6,11 @@
   display: block;
 }
 
+html,
+body {
+  height: 100%;
+}
+
 h1,
 h2,
 nav,
@@ -76,12 +81,51 @@ footer {
   cursor: pointer;
   text-align: center;
   border-radius: 30px;
+  text-decoration: none;
 }
 
 .block:hover {
   background-color: green;
 }
 
+.button {
+  text-decoration: none;
+}
+
 .blockh2 {
   color: white;
+}
+
+.hishers {
+  border: solid 2px #393d40;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px 20px;
+  margin-top: 50px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+}
+
+.hishers:hover {
+  background-color: #d98b48;
+}
+
+.footer {
+  background-color: #393d40;
+  color: #393d40;
+  height: 400px;
+}
+
+.footer .footer-content {
+  border: 1px solid red;
+  height: 400px;
+}
+
+.footer-bottom {
+  background-color: grey;
+  height: 50px;
+  text-align: center;
 }
