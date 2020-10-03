@@ -19,7 +19,8 @@ h4,
 p,
 footer {
   font-family: "Merriweather", serif;
-  position: center;
+  position: relative;
+  text-align: center;
 }
 
 nav li {
@@ -50,14 +51,6 @@ nav a {
 footer a {
   text-decoration: none;
   color: black;
-}
-
-h1,
-h2,
-h3,
-h4,
-footer {
-  text-align: center;
 }
 
 .container {
@@ -120,7 +113,7 @@ footer {
 }
 
 footer {
-  position: bottom;
+  position: bottom, fixed;
   bottom: 0px;
   width: 100%;
   background-color: #72878c;
@@ -190,4 +183,66 @@ footer {
 
 .block2:hover {
   background-color: green;
+}
+
+.forest {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.forest2 {
+  position: absolute;
+  top: 10%;
+  left: 35%;
+  color: black;
+  font-size: 48px;
+}
+
+.boxed {
+  border: 1px solid black;
+  font-size: 18px;
+  width: 900px;
+  border-radius: 5px;
+  position: relative;
+  left: 820px;
+  bottom: 80px;
+  top: 5px;
+}
+
+.pleft {
+  position: absolute;
+  font-size: 18px;
+  margin-top: 50px;
+  text-align: left;
+  left: 520px;
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 700px;
+}
+
+#map {
+  float: center;
+  position: absolute;
+  left: 520px;
+  bottom: -150px;
+}
+
+#building {
+  position: relative;
+  right: -1290px;
+  bottom: -100px;
+  height: 700px;
+  top: 10px;
+}
+
+.some2 {
+  font-size: 14px;
+  padding: 10px 200px;
+  font-size: 30px;
+  margin-left: 101px;
+}
+
+.some2 a :hover {
+  color: #d98b48;
 }
