@@ -187,3 +187,7 @@ footer {
   border-radius: 30px;
   text-decoration: none;
 }
+
+.block2:hover {
+  background-color: green;
+}
