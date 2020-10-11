@@ -59,6 +59,12 @@ nav a {
   width: 100%;
 }
 
+.searchbar {
+  position: absolute;
+  left: 78%;
+  top: 42%;
+}
+
 footer a {
   text-decoration: none;
   color: black;
