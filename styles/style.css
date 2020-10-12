@@ -61,8 +61,8 @@ nav a {
 
 .searchbar {
   position: absolute;
-  left: 78%;
-  top: 42%;
+  left: 70%;
+  top: 40%;
 }
 
 footer a {
@@ -210,55 +210,60 @@ footer {
   background-color: green;
 }
 
-.forest {
+#forest {
+  width: 100%;
+  max-width: 1480px;
+  margin-left: auto;
+  margin-right: auto;
   position: relative;
   text-align: center;
-  color: white;
-}
-
-.forest2 {
-  position: absolute;
-  top: 10%;
-  left: 35%;
-  color: black;
-  font-size: 48px;
+  width: 100%;
+  display: block;
+  margin-bottom: 100px;
+  margin-top: 20px;
 }
 
 .boxed {
   border: 1px solid black;
   font-size: 18px;
-  width: 900px;
   border-radius: 5px;
   position: relative;
-  left: 820px;
-  bottom: 80px;
-  top: 5px;
+  text-align: center;
+  bottom: 50px;
+  width: 50%;
+  padding: 15px;
+  width: 100%;
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .pleft {
-  position: absolute;
+  padding: 20px;
   font-size: 18px;
-  margin-top: 50px;
-  text-align: left;
-  left: 520px;
+  margin-top: 110px;
   border: 2px solid black;
   border-radius: 5px;
   width: 700px;
+  margin-bottom: 20px;
+  position: relative;
+  left: 520px;
 }
 
 #map {
-  float: center;
-  position: absolute;
-  left: 520px;
-  bottom: -150px;
+  max-width: 100%;
+  position: relative;
+  right: -520px;
+  margin-top: 10px;
 }
 
 #building {
+  max-width: 100%;
+  max-block-size: 60%;
   position: relative;
-  right: -1290px;
-  bottom: -100px;
-  height: 700px;
-  top: 10px;
+  left: 740px;
 }
 
 .some2 {
