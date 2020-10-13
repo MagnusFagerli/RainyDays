@@ -77,6 +77,14 @@ footer a {
   text-align: center;
 }
 
+.indexup {
+  width: 100%;
+  max-width: 1480px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
 .centered {
   position: absolute;
   top: 40%;
