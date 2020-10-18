@@ -4,7 +4,7 @@
   max-width: 1480px;
   margin-left: auto;
   margin-right: auto;
-  display: block;
+  display: flex;
 }
 
 html,
@@ -59,38 +59,49 @@ nav a {
   width: 100%;
 }
 
-footer a {
-  text-decoration: none;
-  color: black;
-  width: 100%;
-  font-size: 18px;
+nav a:hover {
+  color: #f2f2f0;
 }
 
-footer {
-  position: bottom, fixed;
-  bottom: 0px;
+.footer {
+  height: 400px;
   width: 100%;
-  background-color: #72878c;
-}
-
-.main content {
+  max-width: 1480px;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
+  text-align: center;
+}
+
+.footerblock {
+  background-color: #72878c;
+  border: 1px solid black;
+  width: 100%;
+  max-width: 1480px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .some a {
-  padding: 50px 50px;
-  font-size: 30px;
-  margin-bottom: 50px;
-  margin-top: 50px;
-  text-align: center;
+  margin: 50px;
+  font-size: 45px;
+  color: #f0f0f0;
+  margin: 30px 30px 30px 30px;
 }
 
 .links a {
-  margin: 45px;
+  margin: 50px;
   text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
 }
 
 .links a:hover {
+  color: #f0f0f0;
+}
+
+.some a:hover {
   color: #d98b48;
 }
 
@@ -171,6 +182,15 @@ h6 {
   max-width: 1480px;
   margin-left: auto;
   margin-right: auto;
+  padding: 10px 10px 10px 10px;
+}
+
+.jump {
+  padding: 10px 10px 10px 10px;
+}
+
+.trip {
+  padding: 10px 10px 10px 10px;
 }
 
 .readmore2 {
