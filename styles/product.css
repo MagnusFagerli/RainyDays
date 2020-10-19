@@ -1,5 +1,6 @@
 .logo {
-  height: 400px;
+  height: auto;
+  max-height: 400px;
   width: 100%;
   max-width: 1480px;
   margin-left: auto;
@@ -19,12 +20,15 @@ nav,
 h3,
 h4,
 p,
+form,
+input,
 footer {
   font-family: "Merriweather", serif;
-  position: center;
+  position: relative;
   text-align: center;
   width: 100%;
-  display: block;
+  height: auto;
+  display: flex;
 }
 
 nav li {
@@ -44,9 +48,7 @@ nav ul {
   background-color: #d98b48;
   font-size: 25px;
   background-size: 1480px;
-  width: 1450px;
   margin-bottom: 50px;
-  margin-left: 520px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -61,12 +63,6 @@ nav a {
 
 nav a:hover {
   color: #f2f2f0;
-}
-
-.searchbar {
-  position: absolute;
-  left: 70%;
-  top: 40%;
 }
 
 .footer {
@@ -96,7 +92,7 @@ nav a:hover {
 }
 
 .links a {
-  margin: 50px;
+  margin: 30px;
   text-align: center;
   text-decoration: none;
   font-size: 20px;
@@ -109,4 +105,13 @@ nav a:hover {
 
 .some a:hover {
   color: #d98b48;
+}
+
+@media screen and (max-width: 600px) {
+  .container-form,
+  .pleft,
+  input[type="submit"] {
+    width: 100%;
+    margin-top: 0;
+  }
 }
