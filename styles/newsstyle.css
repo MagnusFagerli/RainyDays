@@ -33,7 +33,6 @@ footer {
 nav {
   justify-content: space-around;
   font-size: 28px;
-  padding: 0px;
   display: flex;
   border: 1px solid black;
   background-color: #d98b48;

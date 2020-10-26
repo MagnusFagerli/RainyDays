@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link href="styles/checkoutstyle.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Rainy Days</title>
+  </head>
+  <body>
+    <a href="index.html">
+      <img src="images/header.jpg" alt="Rainy Days Logo" class="logo"
+    /></a>
+
+    <nav>
+      <div class="navi">
+        <a href="news.html">News</a>
+        <a href="shop.html">Shop</a>
+        <a href="contact.html">Contact</a>
+        <a href="about.html">About Us</a>
+        <a href="checkout.html">Cart</a>
+      </div>
+    </nav>
+
+    
+    <h2>Cart & Checkout</h2>
+
+
+    <div class="row">
+
+
+        <div class="col-75">
+          <div class="container">
+
+            <div class="shopcontainer">
+                <h4>Order Summary</h4>
+                <img src="images/jacket.jpg" class="jacket" alt="Bitihorn jacket.">
+                <div class="jacketdesc"><i>Bitihorn signature jacket.</i></div>
+                <div class="price"><p><i>$49.99</i></p></div>
+            </div>
+
+            <form action="/success.html">
+      
+              <div class="row">
+                <div class="col-50">
+                  <h3>Delivery Address</h3>
+                  <label for="fname"></i>Your Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Ola Nordmann">
+                  <label for="email"></i> Email</label>
+                  <input type="text" id="email" name="email" placeholder="olanordmann@gmail.com">
+                  <label for="adr"></i> Address</label>
+                  <input type="text" id="adr" name="address" placeholder="Osterhaus' Gate">
+                  <label for="city"></i> City</label>
+                  <input type="text" id="city" name="city" placeholder="Oslo">
+      
+                  <div class="row">
+                    <div class="col-50">
+                      <label for="state">State</label>
+                      <input type="text" id="state" name="state" placeholder="Viken">
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="col-50">
+                  <h3>Payment</h3>
+                  <label for="cname">Card Name</label>
+                  <input type="text" id="cname" name="cardname" placeholder="Ola Nordmann">
+                  <label for="ccnum">Credit card number</label>
+                  <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                  <label for="expmonth">Expiration Month</label>
+                  <input type="text" id="expmonth" name="expmonth" placeholder="August">
+      
+                  <div class="row">
+                    <div class="col-50">
+                      <label for="expyear">Expiration Year</label>
+                      <input type="text" id="expyear" name="expyear" placeholder="2023">
+                    </div>
+                    <div class="col-50">
+                      <label for="cvv">CVC</label>
+                      <input type="text" id="cvc" name="cvc" placeholder="999">
+                    </div>
+                  </div>
+                </div>
+      
+              </div>
+              <p>Total Price:</p>
+              <p> $49.99</p>
+              <input type="submit" value="Place Order" class="btn">
+            </form>
+          </div>
+        </div>
+
+
+
+
+
+    <footer>
+      <div class="footerblock">
+        <h4>Links - Rainy Days</h4>
+        <div class="links">
+          <ul>
+            <a href="contact.html">Contact Us</a>
+            <a href="about.html">About Us</a>
+            <a href="news.html">News</a>
+          </ul>
+        </div>
+        <div class="some">
+          <a href="www.facebook.com"><span class="fab fa-facebook-f"></span></a>
+          <a href="www.twitter.com"><span class="fab fa-twitter"></span></a>
+          <a href="www.instagram.com"><span class="fab fa-instagram"></span></a>
+        </div>
+
+        &copy; HTML / CSS // Rainy Days by Magnus Fagerli
+      </div>
+    </footer>
+  </body>
+</html>

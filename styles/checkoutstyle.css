@@ -1,0 +1,231 @@
+.logo {
+  max-height: 400px;
+  width: 100%;
+  max-width: 1480px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Merriweather", serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+footer {
+  text-align: center;
+  width: 100%;
+  display: block;
+}
+
+.navi {
+  display: flex;
+}
+
+nav {
+  justify-content: space-around;
+  font-size: 28px;
+  display: flex;
+  border: 1px solid black;
+  background-color: #d98b48;
+  width: auto;
+  max-width: 1480px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  margin: 10px;
+}
+
+nav a:hover {
+  color: #f2f2f0;
+}
+
+.footer {
+  height: 400px;
+  width: 100%;
+  max-width: 1480px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  text-align: center;
+}
+
+.footerblock {
+  background-color: #72878c;
+  border: 1px solid black;
+  width: 100%;
+  max-width: 1480px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.some a {
+  margin: 50px;
+  font-size: 45px;
+  color: #f0f0f0;
+  margin: 30px 30px 30px 30px;
+}
+
+.links a {
+  margin: 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+
+.links a:hover {
+  color: #f0f0f0;
+}
+
+.some a:hover {
+  color: #d98b48;
+}
+
+.some2 {
+  font-size: 14px;
+  padding: 10px 200px;
+  font-size: 30px;
+  margin-left: 101px;
+}
+
+.some2 a :hover {
+  color: #d98b48;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  -ms-flex: 25%;
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%;
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%;
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+
+input[type="text"] {
+  width: 50%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: #00b894;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+.jacketdesc {
+    margin-left: 350px;
+    margin-top: 100px;
+}
+
+.price {
+float: right;
+}
+
+.jacket {
+    height: 200px;
+    float: left;
+    margin-bottom: 50px;
+}
+
+.card {
+  border: 1px solid black;
+  max-width: 800px;
+  height: auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.success {
+  max-width: 200px;
+}
+
+@media (max-width: 800px) {
+
+  .card {
+    max-width: 400px;
+  }
+
+  .navi a {
+    float: none;
+    display: block;
+  }
+
