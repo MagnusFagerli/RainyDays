@@ -12,15 +12,17 @@ body {
   font-family: "Merriweather", serif;
 }
 
-h1,
 h2,
 h3,
 h4,
-p,
-footer {
+p {
   text-align: center;
   width: 100%;
   display: block;
+}
+
+h1 {
+  text-align: center;
 }
 
 nav {
@@ -97,38 +99,25 @@ nav a:hover {
   margin-left: auto;
   margin-right: auto;
   padding-top: 20px 20px;
-  padding-left: 50px;
   margin-top: 50px;
   display: inline-block;
   justify-content: center;
-  align-items: center;
-  font-size: 28px;
+  font-size: 18px;
   padding: 15px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .hishers:hover {
   background-color: #d98b48;
 }
 
-.footer {
-  height: 400px;
-  width: 100%;
-  max-width: 1480px;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  text-align: center;
-}
-
 .footerblock {
   background-color: #72878c;
   border: 1px solid black;
   width: 100%;
-  max-width: 1480px;
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
 }
 
 .some a {
@@ -136,14 +125,15 @@ nav a:hover {
   font-size: 45px;
   color: #f0f0f0;
   margin: 30px 30px 30px 30px;
+  display: none;
 }
 
-.links a {
-  margin: 30px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 20px;
+.links a, li {
+  margin: 10px;
+  font-size: 18px;
   color: black;
+  display: inline-block;
+  text-decoration: none;
 }
 
 .links a:hover {
@@ -207,7 +197,7 @@ nav a:hover {
   bottom: 50px;
   padding: 15px;
   width: 100%;
-  max-width: 450px;
+  max-width: 400px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
@@ -216,7 +206,7 @@ nav a:hover {
 
 .pleft {
   width: 100%;
-  max-width: 1440px;
+  max-width: 440px;
   margin-left: auto;
   margin-right: auto;
   position: relative;
@@ -234,8 +224,10 @@ nav a:hover {
   font-size: 14px;
   padding: 10px 200px;
   font-size: 30px;
-  margin-left: 101px;
+  display: flex;
 }
+
+
 
 .some2 a :hover {
   color: #d98b48;
@@ -283,17 +275,13 @@ input[type=submit] {
   padding: 12px 20px;
   border: none;
   cursor: pointer;
-  width: 30%;
+  width: 40%;
+  text-align: center;
   text-align: center;
 }
 
 input[type=submit]:hover {
   background-color: #d98b48;
-}
-
-.submit-btn {
-  font-size: 18px;
-  width: 20%;
 }
 
 .hamburger-label {
@@ -349,6 +337,10 @@ nav a:hover {
     display: flex;
   }
 
+  h1 {
+  text-align: center;  
+  }
+
   .card {
     max-width: 400px;
   }
@@ -357,18 +349,28 @@ nav a:hover {
     background-color: #72878c;
     border: 1px solid black;
     width: auto;
+    max-height: 400px;
     max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
     display: block;
   }
 
-  .footerlinks ul {
-    margin: 30px;
-    text-align: center;
+  .links a, li {
     text-decoration: none;
     font-size: 20px;
     color: black;
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+
+  .some a {
+    margin: 20px;
+    font-size: 45px;
+    color: #f0f0f0;
+    display: inline-block;
+    text-align: center;
   }
 
   nav {

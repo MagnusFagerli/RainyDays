@@ -2,6 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="keywords" content="Rainy Days, Jackets, HTML, CSS" />
+    <meta name="description" content="Our jackets - Rainy Days." />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link href="styles/product.css" rel="stylesheet" />
@@ -9,7 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap"
       rel="stylesheet"
     />
-    <title>Rainy Days</title>
+    <title>Our Jackets - Rainy Days</title>
   </head>
   <body>
     <a href="index.html">
@@ -32,65 +34,67 @@
 
     <!--Product Page Here-->
 
-    <main class="container">
-    <div class="left-column">
-    <img src="images/bitihornlarge.jpg" alt="Bitihorn Jacket" class="jacketlarge">
-  </div>
+    <div class="container">
+      <div class="productcard">
+        <div class="infos">
+          <h1>Bitihorn</h1>
+          <h5>Our signature model.</h5>
+        </div>
+        <div class="images">
+          <img src="images/bitihornlarge.jpg" alt="Jacket" class="jacket" />
+        </div>
+        <div class="moreinfos">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere,
+            reprehenderit deleniti. Optio facere in unde eum exercitationem
+            provident officiis. Sit earum veniam explicabo dicta inventore.
+          </p>
+        </div>
+        <div class="price">
+          <p><i>$49.99</i></p>
+        </div>
 
+        <label class="red">
+          <input type="radio" name="color" value="Red" />
+          <div class="layer"></div>
+          <div class="button"><span></span></div>
+        </label>
+        <label class="blue">
+          <input type="radio" name="color" value="Blue" />
+          <div class="layer"></div>
+          <div class="button"><span></span></div>
+        </label>
+        <label class="yellow">
+          <input type="radio" name="color" value="Yellow" />
+          <div class="layer"></div>
+          <div class="button"><span></span></div>
+        </label>
 
-
-<div class="right-column">
-  <div class="product-name">
-  <h1>Bitihorn</h1>
-  <p></p>
-<p>Our best-seller.</p>
-<p></p>
-<div class="price"><p><i>$49.99</i></p></div></div>
-
-<div class="product-descripton">
-  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-    Error itaque voluptate vitae labore possimus aliquam quasi quia molestias doloribus commodi, praesentium et reprehenderit sed eveniet dicta blanditiis, quisquam harum nesciunt?
-  </p></div>
-
-  
-  <div class="colors">
-    <button class="dropbtn">Available Colors</button>
-    <div class="dropdown-colors">
-      <a href="#">Blue</a>
-      <a href="#">Red</a>
-      <a href="#">Yellow</a>
+        <div>
+          <a href="checkout.html"> <button class="crt">Add to Cart</button></a>
+        </div>
+      </div>
     </div>
-  </div>
-  <button class="crt">Add to Cart</button>
-
-  
-</main>
-  
-
-
 
     <footer>
-        <div class="footerblock">
-          <h4>Links - Rainy Days</h4>
-          <div class="links">
-            <ul>
-              <a href="contact.html">Contact Us</a>
-              <a href="about.html">About Us</a>
-              <a href="news.html">News</a>
-            </ul>
-          </div>
-          <div class="some">
-            <a href="www.facebook.com"
-              ><span class="fab fa-facebook-f"></span
-            ></a>
-            <a href="www.twitter.com"><span class="fab fa-twitter"></span></a>
-            <a href="www.instagram.com">
-            <span class="fab fa-instagram"></span>
-            </a>
-          </div>
-
-          &copy; HTML / CSS // Rainy Days by Magnus Fagerli
+      <div class="footerblock">
+        <h4>Links - Rainy Days</h4>
+        <div class="links">
+          <ul>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="news.html">News</a></li>
+          </ul>
         </div>
+        <div class="some">
+          <a href="www.facebook.com"><span class="fab fa-facebook-f"></span></a>
+          <a href="www.twitter.com"><span class="fab fa-twitter"></span></a>
+          <a href="www.instagram.com">
+            <span class="fab fa-instagram"></span>
+          </a>
+        </div>
+
+        &copy; HTML / CSS // Rainy Days by Magnus Fagerli
       </div>
     </footer>
   </body>
