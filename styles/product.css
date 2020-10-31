@@ -73,6 +73,7 @@ nav a:hover {
   font-size: 45px;
   color: #f0f0f0;
   margin: 30px 30px 30px 30px;
+  display: none;
 }
 
 .links a,
