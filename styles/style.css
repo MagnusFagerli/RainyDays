@@ -1,7 +1,6 @@
 .logo {
   max-height: 300px;
-  width: 100%;
-  max-width: 600px;
+  max-width: 350px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -19,10 +18,6 @@ p {
   text-align: center;
   width: 100%;
   display: block;
-}
-
-h1 {
-  text-align: center;
 }
 
 nav {
@@ -204,35 +199,6 @@ nav a:hover {
   margin-bottom: 20px;
 }
 
-.pleft {
-  width: 100%;
-  max-width: 440px;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  text-align: center;
-  display: block;
-  padding: 20px;
-  font-size: 18px;
-  margin-top: 110px;
-  border: 2px solid black;
-  border-radius: 5px;
-  margin-bottom: 20px;
-}
-
-.some2 {
-  font-size: 14px;
-  padding: 10px 200px;
-  font-size: 30px;
-  display: flex;
-}
-
-
-
-.some2 a :hover {
-  color: #d98b48;
-}
-
 .stocksale {
   width: 100%;
   height: auto;
@@ -242,46 +208,6 @@ nav a:hover {
   margin-top: 50px;
   margin-bottom: 50px;
   display: block;
-}
-
-
-.container-form {
-  width: 40%;
-  padding: 12px;
-  border: 1px solid black
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  text-align: center;
-}
-
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  margin-top: 9px;
-  margin-bottom: 16px;
-  resize: vertical;
-  text-align: center;
-}
-
-input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  cursor: pointer;
-  width: 40%;
-  text-align: center;
-  text-align: center;
-}
-
-input[type=submit]:hover {
-  background-color: #d98b48;
 }
 
 .hamburger-label {

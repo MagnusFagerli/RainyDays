@@ -10,7 +10,7 @@ const contactButton = document.querySelector(".submitbtn");
 function validateForm(event) {
     event.preventDefault();
 
-    if (checkLength(fullName.value, 5) === true) {
+    if (checkLength(contactName.value, 5) === true) {
         fullNameError.style.display = "none";
     } else {
         fullNameError.style.display = "block";
@@ -26,12 +26,6 @@ function validateForm(event) {
         emailError.style.display = "none";
     } else {
         emailError.style.display = "block";
-    }
-
-    if (checkLength(address.value, 25) === true) {
-        adressError.style.display = "none";
-    } else {
-        adressError.style.display = "block";
     }
 
     console.log("test");
@@ -52,3 +46,7 @@ function validateEmail(email) {
 }
 
 contactForm.addEventListener("submit", validateForm);
+
+function displayError(message = "Unknown error") {
+    return `<div class="error">${message}</div>`;
+}
